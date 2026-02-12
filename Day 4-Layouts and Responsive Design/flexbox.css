@@ -1,0 +1,29 @@
+/* needed in every code */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* the above three is needed */
+
+.container{
+    display:flex;
+    flex-direction: row;
+    gap:16px;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(248, 244, 245);
+    height:100vh;
+
+}
+.box{
+    /* fitted on screen (flex) */
+    flex:1;  
+    width: 200px ;
+    height: 200px;
+    background-color:rgb(64, 165, 183) ;
+
+}
+.container :nth-child(odd){
+    background-color: rgb(190, 66, 13);
+}
